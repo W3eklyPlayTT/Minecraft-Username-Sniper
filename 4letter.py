@@ -30,7 +30,7 @@ checked = 0
 
 def generate_name() -> str:
     """Generate a random valid 4-character Minecraft username."""
-    return "".join(random.choices(CHARS, k=3))
+    return "".join(random.choices(CHARS, k=4))
 
 def is_available(name: str) -> bool:
     """
